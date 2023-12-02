@@ -1,0 +1,57 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    text-align: center;
+}
+.game {
+    border: 1px solid black;
+    margin: 20px 0;
+    width: 600px;
+    padding: 15px 0;
+    border-radius: 20px;
+}
+.game-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(48, 30, 30);
+}
+.game-play {
+    text-align: center;
+}
+h1 {
+    font-size: 54px;
+    margin: 0;
+}
+h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.click-game, #resetButton {
+    font-size: 24px;
+}
+.instruction {
+    font-size: 20px;
+    color: rgb(12, 64, 207);
+}
+#message {
+    font-size: 24px;
+    color: blueviolet;
+    margin: 5px 0;
+.message {
+    height: 10px;
+}
+}
+.overal-score {
+    font-size: 26px;
+    color: chartreuse;
+}
+#result {
+    color: white;
+    font-size: 36px;
+}
