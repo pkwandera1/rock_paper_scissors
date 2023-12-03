@@ -1,57 +1,95 @@
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
+
 p {
     text-align: center;
 }
+
 .game {
     border: 1px solid black;
     margin: 20px 0;
-    width: 600px;
+    width: 80%;
+    max-width: 600px;
     padding: 15px 0;
     border-radius: 20px;
 }
+
 .game-result {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(48, 30, 30);
 }
+
 .game-play {
     text-align: center;
 }
+
 h1 {
-    font-size: 54px;
+    font-size: 36px;
     margin: 0;
 }
+
 h2 {
-    font-size: 28px;
+    font-size: 20px;
     color: white;
 }
 
-.click-game, #resetButton {
-    font-size: 24px;
+.click-game,
+#resetButton {
+    font-size: 18px;
 }
+
 .instruction {
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(12, 64, 207);
 }
+
 #message {
-    font-size: 24px;
+    font-size: 18px;
     color: blueviolet;
     margin: 5px 0;
+}
+
 .message {
     height: 10px;
 }
-}
+
 .overal-score {
-    font-size: 26px;
+    font-size: 20px;
     color: chartreuse;
 }
+
 #result {
     color: white;
-    font-size: 36px;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .click-game,
+    #resetButton {
+        font-size: 14px;
+    }
+
+    .game {
+        width: 90%;
+    }
+
+    .overal-score {
+        font-size: 16px;
+    }
+
+    #result {
+        font-size: 18px;
+    }
 }
